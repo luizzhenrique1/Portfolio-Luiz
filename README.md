@@ -80,4 +80,4 @@ A documentação completa do planejamento do projeto — definição do projeto,
 
 ## Link da versão publicada
 
-_Ainda não publicado._
+[Luiz Henrique -- Front-end Developer](https://portfolio-luiz-cyan.vercel.app/#projetos)
