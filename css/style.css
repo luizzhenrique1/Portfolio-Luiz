@@ -1011,6 +1011,27 @@ button {
         gap: .5rem
     }
 
+    .experience-section {
+        min-height: auto;
+        padding-top: 5rem;
+        padding-bottom: 5rem
+    }
+
+    .experience-section .experience-title {
+        font-size: clamp(2.75rem, 12vw, 4rem);
+        line-height: .95;
+        margin-bottom: 2rem
+    }
+
+    .experience-item h3 {
+        font-size: clamp(1.1rem, 5.2vw, 1.45rem)
+    }
+
+    .experience-item p {
+        font-size: clamp(.9rem, 3.7vw, 1.05rem);
+        line-height: 1.55
+    }
+
     .project-card {
         top: 5rem !important;
         min-height: 70vh;
