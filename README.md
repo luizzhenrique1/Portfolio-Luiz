@@ -1,83 +1,61 @@
-# Portfólio Pessoal — Luiz Henrique
+# Portfólio Pessoal - Luiz Henrique
 
-Portfólio pessoal desenvolvido como projeto acadêmico, aplicando práticas de desenvolvimento orientado por requisitos (histórias de usuário, critérios de aceitação, priorização MoSCoW, MVP e backlog) com apoio de Inteligência Artificial durante o planejamento e a implementação.
+Portfólio pessoal de Luiz Henrique, estudante de Análise e Desenvolvimento de Sistemas no IFSP Guarulhos e desenvolvedor Front-end em busca de uma oportunidade como Desenvolvedor Júnior.
 
-O site apresenta a identificação, competências, experiências profissionais, formação acadêmica, projetos, uma viagem marcante e formas de contato de Luiz Henrique, estudante de Análise e Desenvolvimento de Sistemas e desenvolvedor Front-end em busca de uma oportunidade como Desenvolvedor Júnior.
+O site apresenta competências, trajetória profissional, formação, projetos reais, interesses, viagem e canais de contato.
 
-## Identificação do aluno
+## Tecnologias
 
-- **Nome:** Luiz Henrique
-- **Curso:** Tecnologia em Análise e Desenvolvimento de Sistemas — IFSP Câmpus Guarulhos
+- Next.js com App Router
+- React e TypeScript
+- Tailwind CSS
+- Motion para revelações de conteúdo com respeito a movimento reduzido
+- `next/image` para imagens responsivas e otimizadas
+- Kanit hospedada localmente com `@fontsource/kanit`
 
-## Tecnologias utilizadas
+## Como executar
 
-- **HTML5** semântico
-- **CSS3** (identidade visual 100% customizada, com Grid/Flexbox próprios, responsiva e com animacoes nativas)
-- **JavaScript** (vanilla, sem frameworks, com IntersectionObserver e requestAnimationFrame)
-- **Google Fonts** — Kanit (tipografia display e corpo)
-
-O uso de Bootstrap 5 era permitido pelo enunciado, mas foi dispensado propositalmente: todo o layout (incluindo o menu responsivo, o marquee horizontal e os cards empilhados de projetos) foi construído com CSS próprio para manter controle total sobre a identidade visual. Nenhum outro framework ou biblioteca de interface (React, Vue, Angular, Tailwind, etc.) foi utilizado, em conformidade com as restrições técnicas do projeto.
-
-## Como executar o portfólio
-
-Não é necessário nenhum processo de build ou instalação de dependências. Basta:
-
-1. Baixar ou clonar este repositório.
-2. Abrir o arquivo `index.html` diretamente no navegador,
-
-   **ou**, para evitar eventuais bloqueios de CORS em alguns navegadores, servir a pasta localmente. Exemplo com Python:
-
-   ```bash
-   cd portfolio
-   python3 -m http.server 8080
-   ```
-
-   E acessar `http://localhost:8080` no navegador.
-
-## Estrutura do projeto
-
-```
-portfolio/
-├── index.html
-├── css/
-│   └── style.css
-├── js/
-│   └── script.js
-├── assets/
-│   ├── image1.png
-│   ├── projeto1.jpeg, projeto1.1.jpeg, projeto1.2.jpeg
-│   ├── projeto2.jpeg, projeto2.1.jpeg, projeto2.2.jpeg
-│   └── projeto3.jpg, projeto3.1.jpeg, projeto3.2.jpeg
-├── docs/
-│   └── documentacao.md
-└── README.md
+```bash
+npm install
+npm run dev
 ```
 
-## Resumo das funcionalidades
+Abra `http://localhost:3000` no navegador.
 
-- **Identificação e apresentação pessoal** — seção hero com nome completo, título profissional e bio curta (sem foto, por decisão de composição visual registrada na documentação).
-- **Competências e conhecimentos** — cartões de "Services" (áreas de atuação) e uma grade de tags organizada por categoria: linguagens, tecnologias/ferramentas e soft skills.
-- **Experiências relevantes** — linha do tempo com cargo, período e descrição de cada atuação, da mais recente para a mais antiga.
-- **Formação acadêmica** — formação principal (ADS — IFSP) e técnica (Etec) em destaque, com cursos complementares listados separadamente (nome + ano).
-- **Projetos realizados ou em desenvolvimento** — cartões com título, descrição, tecnologias e link real para cada projeto: Finwise, Vault Finances e Long Video Automation.
-- **Viagens realizadas** — destaque para a viagem a Cacupé, Santa Catarina.
-- **Hobbies e lazer** — seção própria com interesses pessoais (item Could have da priorização MoSCoW, implementado nesta entrega).
-- **Formas de contato** — links funcionais para e-mail (mailto), WhatsApp (wa.me), LinkedIn e GitHub.
+## Verificações
 
-### Interações implementadas em JavaScript
+```bash
+npm run typecheck
+npm run lint
+npm run build
+```
 
-- Menu de navegação responsivo (hambúrguer no mobile, com animação de morph para "X").
-- Navegação por scroll suave até cada seção.
-- *Scroll spy*: destaque automático do item do menu correspondente à seção visível.
-- Revelação progressiva dos elementos ao rolar a página (via `IntersectionObserver`, sem uso de `scroll` listener bruto).
-- Estado visual da navbar ao rolar a página.
-- Botão "voltar ao topo".
-- Ano atualizado automaticamente no rodapé.
+## Processo de design com Impeccable
 
-## Documentação
+O projeto mantém o contexto de produto e o sistema visual em [PRODUCT.md](PRODUCT.md) e [DESIGN.md](DESIGN.md). A análise crítica, a explicação dos 23 comandos, os critérios de aceite e o roteiro de revisão estão em [docs/IMPECCABLE.md](docs/IMPECCABLE.md).
 
-A documentação completa do planejamento do projeto — definição do projeto, prompts utilizados, histórias de usuário, critérios de aceitação, priorização MoSCoW, descrição do MVP e backlog acionável — está disponível em [`docs/documentacao.md`](./docs/documentacao.md).
+No GitHub Copilot, habilite o Impeccable em **Settings > Experimental**. Em agentes compatíveis, use `npx impeccable install` para instalar a skill e `npx impeccable update` para atualizá-la. O Impeccable não é uma dependência de runtime da aplicação.
 
-## Link da versão publicada
+## Estrutura
 
-[Luiz Henrique -- Front-end Developer](https://portfolio-luiz-cyan.vercel.app)
+```text
+app/          Páginas, estilos globais e metadados
+components/   Navegação e componentes de animação
+data/         Conteúdo tipado do portfólio
+public/assets Imagens e favicon usados pela aplicação
+assets/       Assets originais preservados
+docs/         Auditoria e processo Impeccable
+PRODUCT.md    Contexto de produto, público e critérios de sucesso
+DESIGN.md     Sistema visual e regras para futuras alterações
+SKILLS/       Instruções complementares do projeto
+```
+
+## Projetos vinculados
+
+- [FinancesTCC (Finwise)](https://finwise-site-remake.vercel.app)
+- [Vault Finances](https://vaultfinances.vercel.app)
+- [Long Video Automation](https://github.com/luizzhenrique1/Long-Video-Automation)
+
+## Publicação anterior
+
+[Luiz Henrique - Front-end Developer](https://portfolio-luiz-cyan.vercel.app)
