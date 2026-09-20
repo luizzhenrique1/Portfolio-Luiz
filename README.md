@@ -56,6 +56,6 @@ SKILLS/       Instruções complementares do projeto
 - [Vault Finances](https://vaultfinances.vercel.app)
 - [Long Video Automation](https://github.com/luizzhenrique1/Long-Video-Automation)
 
-## Publicação anterior
+## Deploy
 
 [Luiz Henrique - Front-end Developer](https://portfolio-luiz-cyan.vercel.app)
