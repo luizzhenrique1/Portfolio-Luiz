@@ -8,6 +8,7 @@ const links = [
   ["Trajetória", "#experiencia"],
   ["Projetos", "#projetos"],
   ["Formação", "#formacao"],
+  ["Processo", "/impeccable"],
   ["Contato", "#contato"],
 ] as const;
 

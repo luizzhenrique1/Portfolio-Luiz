@@ -34,6 +34,8 @@ npm run build
 
 O projeto mantém o contexto de produto e o sistema visual em [PRODUCT.md](PRODUCT.md) e [DESIGN.md](DESIGN.md). A análise crítica, a explicação dos 23 comandos, os critérios de aceite e o roteiro de revisão estão em [docs/IMPECCABLE.md](docs/IMPECCABLE.md).
 
+O catálogo e os registros de aplicação estão disponíveis como uma página extra em [/impeccable](https://portfolio-luiz-cyan.vercel.app/impeccable). A versão anterior está preservada na tag [`v1`](https://github.com/luizzhenrique1/Portfolio-Luiz/tree/v1); a versão corrigida está na branch `main` e na tag [`V2`](https://github.com/luizzhenrique1/Portfolio-Luiz/tree/V2).
+
 No GitHub Copilot, habilite o Impeccable em **Settings > Experimental**. Em agentes compatíveis, use `npx impeccable install` para instalar a skill e `npx impeccable update` para atualizá-la. O Impeccable não é uma dependência de runtime da aplicação.
 
 ## Estrutura
@@ -47,6 +49,7 @@ assets/       Assets originais preservados
 docs/         Auditoria e processo Impeccable
 PRODUCT.md    Contexto de produto, público e critérios de sucesso
 DESIGN.md     Sistema visual e regras para futuras alterações
+app/impeccable Página extra com catálogo e registros da atividade
 SKILLS/       Instruções complementares do projeto
 ```
 

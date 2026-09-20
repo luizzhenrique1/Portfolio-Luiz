@@ -60,6 +60,8 @@ npx impeccable update
 
 ## Aplicação neste projeto
 
+O catálogo completo e os registros desta aplicação estão disponíveis na página extra [/impeccable](https://portfolio-luiz-cyan.vercel.app/impeccable). Esta página é a evidência navegável da atividade; este arquivo mantém o processo em formato de documentação do repositório.
+
 | Passo | Comando | Decisão |
 | --- | --- | --- |
 | Contexto | `init` | Criar `PRODUCT.md` e `DESIGN.md` antes de pedir mudanças ao agente. |
